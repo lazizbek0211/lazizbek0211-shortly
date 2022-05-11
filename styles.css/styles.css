@@ -1,0 +1,35 @@
+/* global */
+*{box-sizing: border-box;}
+
+html {
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: "rubik" "rubik mono one" "sans-serif";
+    color:#4a4b4c;
+    background-color:#eee;
+    flex-wrap: nowrap;
+}
+img{
+    height:auto;
+    max-width: 100%;   
+}
+*:focus{
+    outline: 3px dashed skyblue;
+    outline-offset: 3px;
+}
+.container{
+    max-width: 1260px;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
