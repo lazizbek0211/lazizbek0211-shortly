@@ -4,11 +4,126 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template repo</title>
+    <title>Shortly</title>
     <link rel="stylesheet" href="styles.css/normalize.css">
     <link rel="stylesheet" href="styles.css/styles.css">
 </head>
-<body>
-    
-</body>
-</html>
+<body class="body">
+    <header class="site-header container">
+        <a class="site-header__link" href="#"><img class="site-header__logo" src="img/Shortly.svg" alt="logo"></a>
+        <nav class="site-header__nav">
+            <a class="site-header__link-item" href="#">Features</a>
+            <a class="site-header__link-item" href="#">Pricing</a>
+            <a class="site-header__link-item" href="#">Resources</a>
+        </nav>
+        <div class="registration">
+            <a class="registration-link" href="#">Login</a>
+            <a class="registration-link button-style" href="#">Sign up</a>
+        </div>
+    </header>
+    <div class="site-hero">
+        
+        <div class="site-hero-container container">
+            <img class="site-hero-container__main-img" src="./img/main-img.svg" alt="">
+            <div class="content-wrapper">
+                <h1 class="content-wrapper__site-theme">More than just <br> shorter links</h1>
+                <p class="content-wrapper__theme-content">Build your brand’s recognition and get detailed
+                    <br> insights on how your links are performing.</p>
+                    <a class="content-wrapper__starting" href="#">Get Started</a>
+                </div>
+            </div>
+        </div>
+        <main class="site-main">
+            <div class="form-links-wrapper container">
+                <div class="container site-main__container js-form-url-wrapper">
+                    <form class="site-main__form js-url-wrapper-block" action="Get" method="https://echo.htmlacademy.ru">
+                        <input class="site-main__input" placeholder="Shorten a link here..." type="url" required>
+                        <button class="site-main__button">Shorten It!</button>
+                        <div class="wrong-link">Please add a link</div>
+                    </form>
+                </div>
+                <div class="more-links block">
+                    <div class="more-links__item">
+                        <p class="more-links__url">https://www.frontendmentor.io</p>
+                        <p class="more-links__green-link">https://rel.ink/k4lKyk</p>
+                        <button class="small-button js-small-button">Copy</button>
+                    </div>
+                    <div class="more-links__item">
+                        <p class="more-links__url">https://www.frontendmentor.io</p>
+                        <p class="more-links__green-link">https://rel.ink/gxOXp9</p>
+                        <button class="small-button js-small-button">Copy</button>
+                    </div>
+                    <div class="more-links__item">
+                        <p class="more-links__url">https://www.frontendmentor.io</p>
+                        <p class="more-links__green-link">https://rel.ink/gob3X9</p>
+                        <button class="small-button js-small-button">Copy</button>
+                    </div>
+                </div>
+            
+            <section class="site-statistics container">
+                <h2 class="site-statistics__theme">Advanced Statistics</h2>
+                <p class="site-statistics__text">Track how your links are performing across the web with<br> our advanced statistics dashboard.</p>
+            </section>
+            
+            <section class="wrapper-block container">
+                <ul class="wrapper-block__card-list">
+                    <li class="card-list__item">
+                        <span class="img-wrapper"><img class="brand-img" src="img/brand.svg" width="47" height="47" alt=""></span>
+                        <h3 class="card-list__theme">Brand Recognition</h3>
+                        <p class="card-list__text">Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content.</p>
+                    </li>
+                    <li class="card-list__item">
+                        <span class="img-wrapper"><img class="brand-img" src="img/brand.svg" width="47" height="47" alt=""></span>
+                        <h3 class="card-list__theme">Brand Recognition</h3>
+                        <p class="card-list__text">Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content.</p>
+                    </li>
+                    <li class="card-list__item">
+                        <span class="img-wrapper"><img class="brand-img" src="img/brand.svg" width="47" height="47" alt=""></span>
+                        <h3 class="card-list__theme">Brand Recognition</h3>
+                        <p class="card-list__text">Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content.</p>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <footer class="site-footer">
+            <section class="cta">
+                <div class="cta__wrapper container">
+                    <h2 class="cta__theme">Boost your links today</h2>
+                    <a class="cta_link content-wrapper__starting" href="#">Get Started</a>
+                    </div>
+                </section>
+            </div>
+            <div class="footer-wrapper container">
+                    <a  class="footer-link" href="#"><img class="footer-logo" src="img/footer-logo.svg" alt="" width="120" height="32"></a>
+                <ul class="footer-list">
+                    <li class="footer-list__item">
+                        <a href="" class="footer-list__link bold-text">Features</a>
+                        <a href="" class="footer-list__link">Link Shortening</a>
+                        <a href="" class="footer-list__link">Branded Links</a>
+                        <a href="" class="footer-list__link">Analytics</a>
+                    </li>
+                    <li class="footer-list__item">
+                        <a href="" class="footer-list__link bold-text">Resources</a>
+                        <a href="" class="footer-list__link">Blog</a>
+                        <a href="" class="footer-list__link">Developers</a>
+                        <a href="" class="footer-list__link">Support</a>
+                    </li>
+                    <li class="footer-list__item">
+                        <a href="" class="footer-list__link bold-text">Company</a>
+                        <a href="" class="footer-list__link">About</a>
+                        <a href="" class="footer-list__link">Our Team</a>
+                        <a href="" class="footer-list__link">Careers</a>
+                        <a href="" class="footer-list__link">Contact</a>
+                    </li>
+                    <li class="footer-list__item social-icons">
+                        <a href="" class="footer-list__link bold-text icon"><img class="icon" src="img/Path.svg" alt=""></a>
+                        <a href="" class="footer-list__link icon"><img class="icon" src="img/Path-2.svg" alt=""></a>
+                        <a href="" class="footer-list__link icon"><img class="icon" src="img/Path-1.svg" alt=""></a>
+                        <a href="" class="footer-list__link icon"><img class="icon" src="img/Shape.svg" alt=""></a>
+                    </li>
+                </ul>
+                </div>
+            </footer>
+            <script src="js/main.js"></script>
+        </body>
+        </html>
